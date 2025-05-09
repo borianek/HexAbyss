@@ -14,3 +14,5 @@ Modpack będzie aktualizowany w taki sposób, aby sprostać oczekiwaniom wszystk
 
 **Paczka serwera Hex:Abyss rekomenduje posiadanie CurseForge do jej poprawnego wgrania ⬎<br>
 Pobierz CurseForge: http://curseforge.bori.graphics**
+
+![Hex:Abyss 3.0 - START](https://github.com/user-attachments/assets/2efd8c9d-f776-4623-999b-dac4ab284287)

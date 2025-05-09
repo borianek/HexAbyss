@@ -4,13 +4,13 @@ Modpack będzie aktualizowany w taki sposób, aby sprostać oczekiwaniom wszystk
 - **Release**<br>
   ➤ standardowa paczka dla graczy korzystających z rekomendowanego launchera CurseForge,<br>
   ➤ do zaimportowania na CurseForge;
-- **Raw Release**
-  ➤ paczka dla graczy używających innego launchera niż CurseForge (w tym dla graczy bez kupionej gry Minecraft),
+- **Raw Release**<br>
+  ➤ paczka dla graczy używających innego launchera niż CurseForge (w tym dla graczy bez kupionej gry Minecraft),<br>
   ➤ do wypakowania w folderze instancji;
-- **Update**
-  ➤ paczka uzupełniająca poprzednią wersję modpacka o nowości w aktualniejszej wersji (tzn. paczka dla graczy z już zainstalowanym modpackiem),
-  ➤ do wypakowania w folderze instancji z wcześniej zainstalowanym modpackiem,
+- **Update**<br>
+  ➤ paczka uzupełniająca poprzednią wersję modpacka o nowości w aktualniejszej wersji (tzn. paczka dla graczy z już zainstalowanym modpackiem),<br>
+  ➤ do wypakowania w folderze instancji z wcześniej zainstalowanym modpackiem,<br>
   ➤ w przypadku, gdy update wymaga usunięcia danego elementu w nowszej wersji, który był obecny w starszej - będzie wówczas wysyłany patch note plików, które należy usunąć.
 
-**Paczka serwera Hex:Abyss rekomenduje posiadanie CurseForge do jej poprawnego wgrania ⬎
+**Paczka serwera Hex:Abyss rekomenduje posiadanie CurseForge do jej poprawnego wgrania ⬎<br>
 Pobierz CurseForge: http://curseforge.bori.graphics**

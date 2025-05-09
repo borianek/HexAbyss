@@ -1,7 +1,7 @@
 # 🔹 MODPACK - GENERAL INFO 🔹
 **Hex:Abyss Official Modpack** został stworzony specjalnie z myślą o graniu na serwerze Minecraft Hex:Abyss na wersji Forge 47.3.0, 1.20.1.
 Modpack będzie aktualizowany w taki sposób, aby sprostać oczekiwaniom wszystkich i zaoszczędzić czas. Każdy update będzie zawierał trzy wersje paczki do pobrania:
-- **Release**
+- **Release**<br>
   ➤ standardowa paczka dla graczy korzystających z rekomendowanego launchera CurseForge,
   ➤ do zaimportowania na CurseForge;
 - **Raw Release**

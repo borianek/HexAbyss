@@ -1,5 +1,11 @@
-<!-- JVM.md -->
+## 🌐 Wybór Języka
 
+Witaj w Hex:Abyss Official Modpack! Proszę wybrać preferowany język poniżej:
+
+
+<details>
+  <summary>🔹 <strong>🇵🇱 Polski</strong></summary>
+  
 <h1 align="center">
 🚀 Konfiguracja Argumentów JVM dla<br>
 Hex:Abyss 𝕃𝕀𝕋𝔼 Modpack
@@ -59,3 +65,38 @@ Zamieść poniższy blok w polu **JVM Arguments** lub **Additional Arguments** s
   <strong style="color:#721C24;">⚠️ Uwaga:</strong>  
   Te argumenty JVM oraz wersja <strong>LITE</strong> są przeznaczone wyłącznie dla użytkowników posiadających około <strong>8 GB RAM</strong>.
 </div>
+</details>
+
+<details>
+  <summary>🔹 <strong>🇬🇧 English</strong></summary>
+  <h1 align="center">
+🚀 JVM Arguments Configuration for<br>
+Hex:Abyss 𝕃𝕀𝕋𝔼 Modpack
+</h1>
+
+<p align="center"><strong>What's this about?</strong><br>
+This file contains the recommended <code>JVM</code> arguments to add to your launcher  
+(<em>CurseForge</em>, the official Minecraft launcher, or <em>TLauncher</em>)  
+to run the <a href="https://github.com/borianek/HexAbyss?tab=readme-ov-file#-modpack--variants-" target="_blank"><strong>LITE</strong></a> variant of the <span style="color:#FF6B6B;"><strong>Hex:Abyss</strong></span> modpack.
+</p>
+
+---
+
+## 🎯 JVM Arguments
+
+Place the following block in the **JVM Arguments** or **Additional Arguments** field of your launcher:
+
+```yaml
+-Xms3G
+-Xmx4G
+-XX:+UseG1GC
+-XX:+UnlockExperimentalVMOptions
+-XX:G1NewSizePercent=20
+-XX:G1MaxNewSizePercent=40
+-XX:G1HeapRegionSize=8M
+-XX:G1ReservePercent=20
+-XX:MaxGCPauseMillis=50
+-XX:G1MixedGCL
+```
+
+</details>

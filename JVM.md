@@ -120,6 +120,9 @@ Place the following block in the **JVM Arguments** or **Additional Arguments** f
     </tr>
   </tbody>
 </table>
-
+<div style="background-color:#F8D7DA; border-left:5px solid #F5C6CB; padding:10px; margin-top:1em;">
+  <strong style="color:#721C24;">⚠️ Note:</strong>  
+  These JVM arguments and the <strong>LITE</strong> version are intended only for users with around <strong>8 GB RAM</strong>.
+</div>
 
 </details>

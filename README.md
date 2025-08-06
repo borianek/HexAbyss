@@ -5,14 +5,14 @@ Modpack będzie aktualizowany w taki sposób, aby sprostać oczekiwaniom wszystk
 # 🔹 MODPACK – WERSJE DO POBRANIA 🔹
 Każdy update będzie zawierał trzy wersje paczki do pobrania:
 - **Release**<br>
-  ➤ Standardowa paczka dla graczy korzystających z rekomendowanego launchera CurseForge<br>
-  ➤ Do zaimportowania na CurseForge
+  ➤ Standardowa paczka dla graczy korzystających z rekomendowanego launchera CurseForge.<br>
+  ➤ Do zaimportowania na CurseForge.
 - **Raw Release**<br>
-  ➤ Paczka dla graczy używających innego launchera niż CurseForge (w tym dla graczy bez kupionej gry Minecraft)<br>
-  ➤ Do wypakowania w folderze instancji
+  ➤ Paczka dla graczy używających innego launchera niż CurseForge (w tym dla graczy bez kupionej gry Minecraft).<br>
+  ➤ Do wypakowania w folderze instancji.
 - **Update**<br>
-  ➤ Paczka uzupełniająca poprzednią wersję modpacka o nowości w aktualniejszej wersji (tzn. paczka dla graczy z już zainstalowanym modpackiem),<br>
-  ➤ Do wypakowania w folderze instancji z wcześniej zainstalowanym modpackiem<br>
+  ➤ Paczka uzupełniająca poprzednią wersję modpacka o nowości w aktualniejszej wersji (tzn. paczka dla graczy z już zainstalowanym modpackiem).<br>
+  ➤ Do wypakowania w folderze instancji z wcześniej zainstalowanym modpackiem.<br>
   ➤ W przypadku, gdy update wymaga usunięcia danego elementu w nowszej wersji, który był obecny w starszej - będzie wówczas umieszczany patch note plików, które należy usunąć.
 
 # 🔹 MODPACK – ODMIANY 🔹

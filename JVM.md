@@ -1,6 +1,6 @@
 ## 🌐 Wybór Języka
 
-Witaj w Hex:Abyss Official Modpack! Proszę wybrać preferowany język poniżej:
+Proszę wybrać preferowany język poniżej:
 
 
 <details>

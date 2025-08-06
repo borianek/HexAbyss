@@ -98,5 +98,28 @@ Place the following block in the **JVM Arguments** or **Additional Arguments** f
 -XX:MaxGCPauseMillis=50
 -XX:G1MixedGCL
 ```
+<table>
+  <thead>
+    <tr>
+      <th align="left">Launcher</th>
+      <th align="left">Steps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>🔹 <strong>CurseForge</strong></td>
+      <td>Open the modpack instance → <strong>Settings</strong> → <strong>Additional Arguments</strong> field</td>
+    </tr>
+    <tr>
+      <td>🔹 <strong>Official Minecraft Launcher</strong></td>
+      <td><strong>Installations</strong> → Edit the desired profile → expand <strong>More Options</strong> → <strong>JVM Arguments</strong> field</td>
+    </tr>
+    <tr>
+      <td>🔹 <strong>TLauncher</strong></td>
+      <td>Click the gear icon (Settings) → <strong>JVM arguments</strong> tab</td>
+    </tr>
+  </tbody>
+</table>
+
 
 </details>

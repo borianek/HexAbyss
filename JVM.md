@@ -65,6 +65,123 @@ Zamieść poniższy blok w polu **JVM Arguments** lub **Additional Arguments** s
   <strong style="color:#721C24;">⚠️ Uwaga:</strong>  
   Te argumenty JVM oraz wersja <strong>LITE</strong> są przeznaczone wyłącznie dla użytkowników posiadających około <strong>8 GB RAM</strong>.
 </div>
+
+<h3 align="center">🚀 Co one robią? 🚀</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Argument</th>
+      <th align="left">Opis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>-Xms3G</code></td>
+      <td>Ustala początkowy rozmiar sterty JVM na 3 GB, co gwarantuje przewidywalne zarządzanie pamięcią od samego startu.</td>
+    </tr>
+    <tr>
+      <td><code>-Xmx4G</code></td>
+      <td>Ogranicza maksymalny rozmiar sterty do 4 GB, chroniąc przed <em>OutOfMemoryError</em> i pozostawiając zasoby dla systemu operacyjnego.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+UseG1GC</code></td>
+      <td>Aktywuje Garbage-First Collector (G1GC), zoptymalizowany pod kątem aplikacji z dużymi obszarami sterty, jak Minecraft.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+UnlockExperimentalVMOptions</code></td>
+      <td>Odblokowuje zaawansowane, eksperymentalne opcje JVM niezbędne do pełnej konfiguracji G1GC.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1NewSizePercent=20</code></td>
+      <td>Ustala minimalny rozmiar generacji młodej (Young Gen) na 20 % całkowitej sterty, zapewniając efektywne i częstsze krótkie cykle GC.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1MaxNewSizePercent=40</code></td>
+      <td>Definiuje maksymalny udział Young Gen w stercie na 40 %, balansując czas i częstotliwość cykli odpadów.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1HeapRegionSize=8M</code></td>
+      <td>Określa wielkość regionu sterty na 8 MB, umożliwiając bardziej granularne zarządzanie pamięcią i segregację obiektów.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1ReservePercent=20</code></td>
+      <td>Rezerwuje 20 % sterty jako bufor dla procesów GC, zapobiegając nieoczekiwanemu rozszerzaniu pamięci.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:MaxGCPauseMillis=50</code></td>
+      <td>Ustawia docelowy czas pauzy GC na maksymalnie 50 ms, co przekłada się na płynniejsze działanie gry.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1MixedGCLiveThresholdPercent=35</code></td>
+      <td>Próg 35 % żywych obiektów w regionie decyduje o włączeniu go do mieszanego cyklu GC, optymalizując jego zakres.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+AlwaysPreTouch</code></td>
+      <td>Wymusza wstępne przydzielenie i „dotknięcie” całej sterty przy starcie JVM, minimalizując późniejsze opóźnienia GC.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 align="center">🚀 A można prościej? 🚀</h4>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th align="left">Argument</th>
+        <th align="left">Cel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>-Xms3G</code></td>
+        <td>Początkowy RAM: 3 GB</td>
+      </tr>
+      <tr>
+        <td><code>-Xmx4G</code></td>
+        <td>Maksymalny RAM: 4 GB</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+UseG1GC</code></td>
+        <td>Usprawnione sprzątanie pamięci</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+UnlockExperimentalVMOptions</code></td>
+        <td>Odblokowanie opcji JVM</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1NewSizePercent=20</code></td>
+        <td>Min. 20 % dla nowych obiektów</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1MaxNewSizePercent=40</code></td>
+        <td>Max. 40 % dla nowych obiektów</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1HeapRegionSize=8M</code></td>
+        <td>Regiony sterty: 8 MB</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1ReservePercent=20</code></td>
+        <td>20 % RAM w rezerwie</td>
+      </tr>
+      <tr>
+        <td><code>-XX:MaxGCPauseMillis=50</code></td>
+        <td>Pauzy sprzątania < 50 ms</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1MixedGCLiveThresholdPercent=35</code></td>
+        <td>Sprzątanie przy ≥ 35 % użycia</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+AlwaysPreTouch</code></td>
+        <td>Przygotowanie pamięci na start</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 </details>
 
 <details>
@@ -124,5 +241,121 @@ Place the following block in the **JVM Arguments** or **Additional Arguments** f
   <strong style="color:#721C24;">⚠️ Note:</strong>  
   These JVM arguments and the <strong>LITE</strong> version are intended only for users with around <strong>8 GB RAM</strong>.
 </div>
+
+<h3 align="center">🚀 What do they do? 🚀</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Argument</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>-Xms3G</code></td>
+      <td>Sets the JVM heap’s initial size to 3 GB, ensuring predictable memory management from the start.</td>
+    </tr>
+    <tr>
+      <td><code>-Xmx4G</code></td>
+      <td>Limits the maximum heap size to 4 GB, preventing <em>OutOfMemoryError</em> and leaving resources for the OS.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+UseG1GC</code></td>
+      <td>Enables the Garbage-First Collector (G1GC), optimized for applications with large heaps like Minecraft.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+UnlockExperimentalVMOptions</code></td>
+      <td>Unlocks advanced experimental JVM options required for full G1GC tuning.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1NewSizePercent=20</code></td>
+      <td>Sets the young generation size to at least 20 % of the heap, yielding efficient, frequent short GC cycles.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1MaxNewSizePercent=40</code></td>
+      <td>Limits the young generation to at most 40 % of the heap, balancing pause time and frequency.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1HeapRegionSize=8M</code></td>
+      <td>Defines each heap region as 8 MB, allowing finer-grained memory management and object segregation.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1ReservePercent=20</code></td>
+      <td>Reserves 20 % of the heap as a buffer for GC processes, preventing unexpected heap expansion.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:MaxGCPauseMillis=50</code></td>
+      <td>Targets a maximum GC pause time of 50 ms, resulting in smoother gameplay.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:G1MixedGCLiveThresholdPercent=35</code></td>
+      <td>Includes regions with ≥ 35 % live objects in mixed GC cycles, optimizing collection scope.</td>
+    </tr>
+    <tr>
+      <td><code>-XX:+AlwaysPreTouch</code></td>
+      <td>Forces the JVM to pre-touch the entire heap at startup, minimizing later GC latency spikes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 align="center">🚀 Is there, like, an easier way? 🚀</h4>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th align="left">Argument</th>
+        <th align="left">Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>-Xms3G</code></td>
+        <td>Initial RAM: 3 GB</td>
+      </tr>
+      <tr>
+        <td><code>-Xmx4G</code></td>
+        <td>Max RAM: 4 GB</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+UseG1GC</code></td>
+        <td>Improved memory cleanup</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+UnlockExperimentalVMOptions</code></td>
+        <td>Unlock JVM options</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1NewSizePercent=20</code></td>
+        <td>Min. 20 % for new objects</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1MaxNewSizePercent=40</code></td>
+        <td>Max. 40 % for new objects</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1HeapRegionSize=8M</code></td>
+        <td>Heap regions: 8 MB</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1ReservePercent=20</code></td>
+        <td>20 % RAM reserved</td>
+      </tr>
+      <tr>
+        <td><code>-XX:MaxGCPauseMillis=50</code></td>
+        <td>GC pauses &lt; 50 ms</td>
+      </tr>
+      <tr>
+        <td><code>-XX:G1MixedGCLiveThresholdPercent=35</code></td>
+        <td>Trigger GC ≥ 35 % live usage</td>
+      </tr>
+      <tr>
+        <td><code>-XX:+AlwaysPreTouch</code></td>
+        <td>Pre-touch memory on startup</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 
 </details>

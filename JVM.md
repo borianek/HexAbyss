@@ -34,6 +34,8 @@ Zamieść poniższy blok w polu **JVM Arguments** lub **Additional Arguments** s
 -XX:G1ReservePercent=20
 -XX:MaxGCPauseMillis=50
 -XX:G1MixedGCL
+-XX:+UseStringDeduplication
+-XX:ParallelGCThreads=2
 ```
 
 <h3 align="center" style="color:#4C9AFF;">🚀 Jak dodać te argumenty</h3>
@@ -214,6 +216,8 @@ Place the following block in the **JVM Arguments** or **Additional Arguments** f
 -XX:G1ReservePercent=20
 -XX:MaxGCPauseMillis=50
 -XX:G1MixedGCL
+-XX:+UseStringDeduplication  
+-XX:ParallelGCThreads=2  
 ```
 <table>
   <thead>

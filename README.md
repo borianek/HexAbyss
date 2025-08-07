@@ -37,7 +37,7 @@ Do wygodnej gry na serwerze Minecraft Hex:Abyss zostały przygotowane dwie odmia
     - wygładza bloki i interfejs, nadając głębokie, czarne GUI.
     - optymalizuje grafikę do prostych, stabilnych form.
     - zapewnia stabilność i płynność nawet na słabszym sprzęcie.
-  - Rekomendujemy ustawienie argumentów JVM z pliku [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md). Dzięki temu Minecraft uruchomi się z odpowiednim przydziałem RAM-u i zoptymalizowanymi ustawieniami garbage collectora.  
+  - Dla osób z ~8 GB RAM zainstalowanej na komputerze: rekomendujemy ustawienie argumentów JVM z pliku [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md). Dzięki temu Minecraft uruchomi się z odpowiednim przydziałem RAM-u i zoptymalizowanymi ustawieniami garbage collectora.
 
 # 🔹 MODPACK – POBIERZ 🔹
 <p align="center">

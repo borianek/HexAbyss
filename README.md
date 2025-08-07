@@ -56,6 +56,13 @@ Do wygodnej gry na serwerze Minecraft Hex:Abyss zostały przygotowane dwie odmia
 **Paczka serwera Hex:Abyss rekomenduje posiadanie CurseForge do jej poprawnego wgrania ⬎<br>
 Pobierz CurseForge: http://curseforge.bori.graphics**
 
+## 📘 Poradnik instalacji i aktualizacji
+
+Chcesz szybko i bezproblemowo **zainstalować** lub **zaktualizować** modpack?  
+Skorzystaj z naszego szczegółowego przewodnika:
+
+👉 [Przejdź do poradnika instalacji i aktualizacji](https://discord.com/channels/965258849604997170/1266406849301839923)  
+
 </details>
 
 <details>
@@ -115,6 +122,13 @@ Two variants of the pack have been prepared for smooth gameplay on the Hex\:Abys
 
 **Hex:Abyss Official Modpack recommends having CurseForge installed for proper installation ⬎<br>
 Download CurseForge: [http://curseforge.bori.graphics](http://curseforge.bori.graphics)**
+
+## 📘 Installation & Update Guide
+
+Want to quickly and effortlessly **install** or **update** the modpack?  
+Use our detailed guide:
+
+👉 [Go to the installation & update guide](https://discord.com/channels/965258849604997170/1266406849301839923)  
   
 </details>
 

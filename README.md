@@ -39,6 +39,19 @@ Do wygodnej gry na serwerze Minecraft Hex:Abyss zostały przygotowane dwie odmia
     - zapewnia stabilność i płynność nawet na słabszym sprzęcie.
   - Rekomendujemy ustawienie argumentów JVM z pliku [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md). Dzięki temu Minecraft uruchomi się z odpowiednim przydziałem RAM-u i zoptymalizowanymi ustawieniami garbage collectora.  
 
+# 🔹 MODPACK – POBIERZ 🔹
+<p align="center">
+  <a href="https://github.com/borianek/HexAbyss/releases" style="font-size: 1.2em;">
+    📥 <strong>POBIERZ MODPACK’A</strong> 📥
+  </a>
+</p>
+
+<p align="center">
+  <em>Aby pobrać modpack, wybierz wydanie <strong>“Latest”</strong>, a następnie przewiń do sekcji <strong>“Assets”</strong> i kliknij w odpowiedni wariant, aby zacząć pobieranie.</em><br>
+  <img src="https://github.com/user-attachments/assets/78165973-b8bc-41f7-9832-6126db5de1a1" 
+       alt="Instrukcja: wybierz Latest, przewiń do Assets i pobierz modpack" 
+       width="902" height="362" />
+</p>
 
 **Paczka serwera Hex:Abyss rekomenduje posiadanie CurseForge do jej poprawnego wgrania ⬎<br>
 Pobierz CurseForge: http://curseforge.bori.graphics**
@@ -85,6 +98,20 @@ Two variants of the pack have been prepared for smooth gameplay on the Hex\:Abys
     - optimizes graphics into simple, stable forms.
     - ensures stability and smooth performance even on lower-end hardware.
   - We recommend using the JVM arguments settings from the [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md) file. This ensures Minecraft launches with the proper RAM allocation and optimized garbage collector settings.
+
+ # 🔹 MODPACK – DOWNLOAD 🔹
+<p align="center">
+  <a href="https://github.com/borianek/HexAbyss/releases" style="font-size: 1.2em;">
+    📥 <strong>DOWNLOAD THE MODPACK</strong> 📥
+  </a>
+</p>
+
+<p align="center">
+  <em>To download the modpack, select the <strong>“Latest”</strong> release, then scroll to the <strong>“Assets”</strong> section and click the appropriate variant to start your download.</em><br>
+  <img src="https://github.com/user-attachments/assets/78165973-b8bc-41f7-9832-6126db5de1a1" 
+       alt="Instructions: select Latest, scroll to Assets, and download the modpack" 
+       width="902" height="362" />
+</p>
 
 **Hex:Abyss Official Modpack recommends having CurseForge installed for proper installation ⬎<br>
 Download CurseForge: [http://curseforge.bori.graphics](http://curseforge.bori.graphics)**

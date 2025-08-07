@@ -104,7 +104,7 @@ Two variants of the pack have been prepared for smooth gameplay on the Hex\:Abys
     - smooths blocks and interface, providing a deep, black GUI.
     - optimizes graphics into simple, stable forms.
     - ensures stability and smooth performance even on lower-end hardware.
-  - We recommend using the JVM arguments settings from the [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md) file. This ensures Minecraft launches with the proper RAM allocation and optimized garbage collector settings.
+  - For users with ~8 GB of RAM installed on their computer: we recommend setting the JVM arguments from the [JVM.md](https://github.com/borianek/hexabyss/blob/main/JVM.md) file. This will ensure Minecraft launches with the proper RAM allocation and optimized garbage collector settings.
 
  # 🔹 MODPACK – DOWNLOAD 🔹
 <p align="center">
